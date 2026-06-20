@@ -11,8 +11,6 @@
 
 *A fully responsive, animated personal portfolio showcasing my projects, skills, and journey as a Java Full Stack developer — live, deployed, and built to make a strong first impression.*
 
-**🔗 [View Live Site →](https://YOUR-NETLIFY-URL-HERE.netlify.app)**
-
 </div>
 
 ---
