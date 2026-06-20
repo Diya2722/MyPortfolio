@@ -101,7 +101,7 @@ Visit `http://localhost:5500` in your browser.
 
 This site is **live on Netlify**, connected directly to this GitHub repository — every push to `main` triggers an automatic redeploy, so the live site always reflects the latest commit.
 
-**Live URL:** [https://YOUR-NETLIFY-URL-HERE.netlify.app](https://YOUR-NETLIFY-URL-HERE.netlify.app)
+**Live URL:** [https://YOUR-NETLIFY-URL-HERE.netlify.app](https://diyaprajapati-portfolio.netlify.app/)
 
 ## 📬 Contact
 
