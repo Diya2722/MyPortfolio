@@ -1072,6 +1072,144 @@ button {
     margin-bottom: 3rem;
 }
 
+.stack-strength-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.stack-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+}
+
+.stack-card-title {
+    font-family: var(--font-head);
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--text-h);
+    margin-bottom: 1.5rem;
+}
+
+/* Technical Stack list */
+.tech-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem 2rem;
+}
+
+.tech-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .6rem;
+    font-family: var(--font-head);
+    font-weight: 600;
+    color: var(--text-h);
+    font-size: .95rem;
+    margin-bottom: .5rem;
+}
+
+.tech-item-head i {
+    color: var(--primary);
+    margin-right: .5rem;
+    width: 1.1em;
+    text-align: center;
+}
+
+.tech-badge {
+    font-size: .68rem;
+    font-weight: 700;
+    padding: .25rem .65rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.tech-badge.int {
+    background: var(--primary);
+}
+
+.tech-badge.beg {
+    background: var(--text-muted);
+}
+
+.tech-bar {
+    width: 100%;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--border);
+    overflow: hidden;
+}
+
+.tech-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.tech-bar-fill.int {
+    width: 75%;
+    background: var(--primary);
+}
+
+.tech-bar-fill.beg {
+    width: 40%;
+    background: var(--text-muted);
+}
+
+/* Working Strengths list */
+.strength-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.strength-label {
+    display: block;
+    font-family: var(--font-head);
+    font-weight: 600;
+    color: var(--text-h);
+    font-size: .95rem;
+    margin-bottom: .5rem;
+}
+
+.strength-bar {
+    width: 100%;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--border);
+    overflow: hidden;
+}
+
+.strength-fill {
+    height: 100%;
+    border-radius: 999px;
+    background: var(--primary);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .tech-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .stack-strength-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .stack-card {
+        padding: 1.5rem;
+    }
+}
+
 .stab {
     background: var(--surface);
     border: 1.5px solid var(--border);
