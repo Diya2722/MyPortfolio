@@ -122,11 +122,11 @@
     ══════════════════════════════════════════════════ */
     const typedEl = document.getElementById("hero-typed");
     const roles = [
-        "enterprise Java apps",
-        "Spring Boot backends",
-        "React-powered UIs",
-        "end-to-end web solutions",
-        "RESTful API systems",
+        "machine learning models",
+        "Generative AI apps",
+        "LLM-powered solutions",
+        "predictive analytics tools",
+        "scalable data pipelines",
     ];
     let roleIdx = 0, charIdx = 0, deleting = false;
 
@@ -159,14 +159,14 @@
         `<span class="tc">// 🚀 Developer Profile — Recruiter Configuration</span>
 <span class="tk">const</span> developer <span class="tb">=</span> <span class="tb">{</span>
   name:      <span class="ts">"Diya Prajapati"</span>,
-  role:      <span class="ts">"Java Full Stack & Web Developer"</span>,
+  role:      <span class="ts">"AI/ML Engineer"</span>,
   degree:    <span class="ts">"B.Sc. Information Technology"</span>,
   location:  <span class="ts">"Ahmedabad, Gujarat 🇮🇳"</span>,
 
   stack: <span class="tb">[</span>
-    <span class="ts">"Java"</span>, <span class="ts">"Spring Boot"</span>, <span class="ts">"Hibernate/JPA"</span>,
-    <span class="ts">"Microservices architecture"</span>,<span class="ts">"OOP"</span>, <span class="ts">"DSA"</span>
-    <span class="ts">"React.js"</span>, <span class="ts">"Postman"</span>, <span class="ts">"MySQL"</span>, <span class="ts">"SDLC"</span>
+    <span class="ts">"Python"</span>, <span class="ts">"Machine Learning"</span>, <span class="ts">"scikit-learn"</span>,
+    <span class="ts">"Generative AI"</span>, <span class="ts">"Google Gemini API"</span>, <span class="ts">"Pandas"</span>,
+    <span class="ts">"Flask API"</span>, <span class="ts">"Docker"</span>, <span class="ts">"SQL"</span>, <span class="ts">"Git"</span>
   <span class="tb">]</span>,
 
   experience: <span class="tb">{</span>

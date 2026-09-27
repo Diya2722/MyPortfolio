@@ -751,9 +751,9 @@ button {
 
 .hero-photo-side .photo-frame {
     width: 100%;
-    max-width: 360px;
-    height: clamp(280px, 38vw, 420px);
-    margin: 0 auto;
+    max-width: 480px;
+    height: clamp(350px, 45vw, 550px);
+    margin: 0 0 0 auto;
 }
 
 .terminal-header {
@@ -888,8 +888,9 @@ button {
 
 .photo-frame {
     position: relative;
-    width: 320px;
-    height: 390px;
+    width: 100%;
+    max-width: 450px;
+    height: 520px;
     border-radius: var(--radius-lg);
     overflow: hidden;
     margin: 0 auto;
